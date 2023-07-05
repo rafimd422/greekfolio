@@ -8,6 +8,7 @@ display: flex;
 justify-content: space-around;
 height: 7vh;
 align-items: center;
+overflow: hidden;
 }
 .logo img {
     width: 140px;
@@ -67,3 +68,41 @@ section {
 }
 
 /* home section ended */
+
+.aboutTitle {
+   font-size: 26px;
+   margin-top: 12px;
+}
+.aboutTitle h1 {
+    text-align: center;
+}
+.aboutPage {
+    display: flex;
+height: 40vh;
+align-items: center;
+justify-content: space-around;
+}
+.aboutPage img {
+    width: 300px;
+}
+
+
+.aboutDescription p {
+        font-size: 18px;
+        margin-top: 10px;
+    
+}
+.aboutDescription button{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+.aboutDescription button:hover {
+    background-color: rgb(17, 2, 2);
+    color: #999;
+    transition: all 0.5s;
+}

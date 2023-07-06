@@ -236,7 +236,7 @@ overflow: hidden;
 .box-btn:hover {
    background-color: rgb(20, 19, 19);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
     .serviceContainer .serviceTitle {
 font-size: 38px;
 padding-bottom: 30px;
@@ -248,7 +248,7 @@ padding-bottom: 30px;
         margin: 5px;
 }
 .box img {
-    width: 64px;
+    width: 54px;
     margin-bottom: 4px;
 }
 .box h1 {
@@ -302,8 +302,8 @@ footer {
 }
 @media only screen and (max-width: 700px) {
     .footerContainer{
-        width: 88%;
-        justify-content: space-evenly;
+        width: 90%;
+        justify-content: space-between;
         gap: 1rem;
     }
     .Useful-links p {
@@ -314,3 +314,4 @@ footer {
         margin-bottom: 0.5rem;
     }
   }
+  
